@@ -28,6 +28,9 @@ kubectl apply -f mosquitto.yaml
 ```
 3. Verify the deployment:
 ```bash
+kubectl get pods
+kubectl get services
+```
 
 4. Access the Mosquitto broker using the exposed service.
 
