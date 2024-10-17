@@ -5,13 +5,14 @@ This project demonstrates the deployment of an Eclipse Mosquitto MQTT broker on 
 ## Project Structure
 
 ```plaintext
-.
 ├── ca.crt
 ├── mosquitto.yaml
 ├── route.yaml
 ├── server.crt
 ├── server.key
 └── screenshots
+```
+
 ## How to Run
 To deploy this project on your Kubernetes cluster, follow these steps:
 
@@ -20,12 +21,15 @@ To deploy this project on your Kubernetes cluster, follow these steps:
 git clone https://github.com/KhizraGhaffar/kubernetes-mosquitto.git
 cd kubernetes-mosquitto
 ```
+
 2. Apply the configuration files to your Kubernetes cluster:
 ```bash
 kubectl apply -f mosquitto.yaml
 ```
 3. Verify the deployment:
 ```bash
+
 4. Access the Mosquitto broker using the exposed service.
+
 ## Screenshots
 Screenshots of the deployment process and broker usage can be found in the screenshots directory.
